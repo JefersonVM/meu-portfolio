@@ -11,9 +11,7 @@ body, h1,h2,h3,h4,h5,h6 {
 .w3-image {
   opacity: 0.4;
 }
-.w3-foto {
-    opacity: 1;
-}
+
 /* Defina a largura da barra lateral para 120px */
 .w3-sidebar {
     width: 120px;background: #222;
@@ -22,3 +20,4 @@ body, h1,h2,h3,h4,h5,h6 {
 #main {
     margin-left: 120px
 }
+
