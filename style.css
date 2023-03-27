@@ -1,6 +1,5 @@
 
 /* Remove as margens do "conteúdo da página" em telas pequenas */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
 body, h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat", sans-serif
@@ -20,4 +19,6 @@ body, h1,h2,h3,h4,h5,h6 {
 #main {
     margin-left: 120px
 }
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
 
