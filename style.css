@@ -1,22 +1,18 @@
 
-/* Remove as margens do "conteúdo da página" em telas pequenas */
-
-header {
-    background-image: url(imagens/minha-foto.jpg);
-    opacity: 0.5;
-    
-}
-
 
 body, h1,h2,h3,h4,h5,h6 {
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", sans-serif;
+    
+    
 }
 .w3-row-padding img {
     margin-bottom: 12px
 }
 .w3-image {
-  opacity: 0.4;
+  opacity: 0.3;
 }
+
+
 
 /* Defina a largura da barra lateral para 120px */
 .w3-sidebar {
@@ -26,6 +22,8 @@ body, h1,h2,h3,h4,h5,h6 {
 #main {
     margin-left: 120px
 }
+
+/* Remove as margens do "conteúdo da página" em telas pequenas */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
 
