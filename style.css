@@ -1,6 +1,13 @@
 
 /* Remove as margens do "conteúdo da página" em telas pequenas */
 
+header {
+    background-image: url(imagens/minha-foto.jpg);
+    opacity: 0.5;
+    
+}
+
+
 body, h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat", sans-serif
 }
