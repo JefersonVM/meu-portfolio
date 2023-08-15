@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.086" height="34.889" viewBox="0 0 60.086 34.889">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="2.316" y2="1.135" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eb1e9c"/>
+      <stop offset="1" stop-color="#2b56ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.766" y1="0.169" x2="1.676" y2="0.836" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-1.414" y1="-0.136" x2="0.893" y2="1.058" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="logo" transform="translate(-44.316 -24.969)">
+    <path id="Caminho_4" data-name="Caminho 4" d="M62.994,38.889V32.722L44.316,41v5.11l18.678,8.194v-6.52l-12.6-4.405Z" fill="url(#linear-gradient)"/>
+    <path id="Caminho_5" data-name="Caminho 5" d="M77.355,24.969h4.758L70.394,59.857H65.549Z" fill="url(#linear-gradient-2)"/>
+    <path id="Caminho_6" data-name="Caminho 6" d="M85.46,32.722v6.52L98.235,43.47,85.46,48.052v5.991L104.4,45.849V40.827Z" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
