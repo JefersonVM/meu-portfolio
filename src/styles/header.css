@@ -118,7 +118,7 @@ header a {
   height: 65px;
   background-color: transparent;
   border: 1px solid transparent;
-  color: white;
+  color: #ffff;
   font-size: 1.1rem;
   font-family: var(--font-defaut);
   font-weight: 600;
