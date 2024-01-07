@@ -1,189 +1,187 @@
-
- /* seta janela */
-.decals-transform svg:nth-child(5){   
-    animation: down 1.3s ease infinite;
+/* seta janela */
+.decals-transform svg:nth-child(5) {
+  animation: down 1.3s ease infinite;
 }
-.decals-sobre-wrapper svg:last-child{
-    animation: down 1.3s ease infinite;
+.decals-sobre-wrapper svg:last-child {
+  animation: down 1.3s ease infinite;
 }
-.decals-formacao-wrapper svg:nth-child(3){
-    animation: down 1.3s ease infinite;
+.decals-formacao-wrapper svg:nth-child(3) {
+  animation: down 1.3s ease infinite;
 }
-.decals-projects-wrapper svg:last-child{
-    animation: down 1.3s ease infinite;
+.decals-projects-wrapper svg:last-child {
+  animation: down 1.3s ease infinite;
 }
 @keyframes down {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        transform: translateY(10px);
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    } 
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-
-
-
-
 /* circulo girando */
-.decals-transform svg:nth-child(4){
-    animation: spin 10s ease-in-out infinite;
+.decals-transform svg:nth-child(4) {
+  animation: spin 10s ease-in-out infinite;
 }
 
 @keyframes spin {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    } 
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 
 /* social header icons  */
-.header-social svg:hover{
-    transition: 0.2s ease;
-    transform: scale(1.05);
+.header-social svg:hover {
+  transition: 0.2s ease;
+  transform: scale(1.05);
 }
-.header-social:hover{
-    transition: 0.3s ease;
-    width: 290px;
+.header-social:hover {
+  transition: 0.3s ease;
+  width: 290px;
 }
-.header-social{
-    transition: 0.3s ease;
-}
-
-.header-social:active{
-    transition: 0.3s ease;
-    width: 270px;
-}
-.header-social:hover a:first-child{
-    transition: 0.5s ease;
-    transform: rotate(360deg);
-}
-.header-social:not(:hover) a:first-child{
-    transition: 0.5s ease;
-    transform: rotate(-360deg);
+.header-social {
+  transition: 0.3s ease;
 }
 
+.header-social:active {
+  transition: 0.3s ease;
+  width: 270px;
+}
+.header-social:hover a:first-child {
+  transition: 0.5s ease;
+  transform: rotate(360deg);
+}
+.header-social:not(:hover) a:first-child {
+  transition: 0.5s ease;
+  transform: rotate(-360deg);
+}
 
 /* efeito cursor no h1  */
-main h1{
-    position: relative;
-    width: fit-content;
+main h1 {
+  position: relative;
+  width: fit-content;
 }
-main h1::after{
-   
-    content: '';
-    width: 10px;
-    height: 32px;
-    
-    position: absolute;
-    right: -20px;
+main h1::after {
+  content: "";
+  width: 10px;
+  height: 32px;
 
-    background-color: white;
-    border-radius: 2px;
+  position: absolute;
+  right: -20px;
 
-    animation: cursor-blink 1s step-end infinite;   
+  background-color: white;
+  border-radius: 2px;
+
+  animation: cursor-blink 1s step-end infinite;
 }
 
 @keyframes cursor-blink {
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
-
 
 /* icones foto sobre  */
-.photo-wrapper img:not(:first-child){
-
-    animation: float-icon ease-in-out 4s infinite;
+.photo-wrapper img:not(:first-child) {
+  animation: float-icon ease-in-out 4s infinite;
 }
-.photo-wrapper img:nth-child(2){
-    animation-delay: -3s;
+.photo-wrapper img:nth-child(2) {
+  animation-delay: -3s;
 }
-.photo-wrapper img:nth-child(3){
-    animation-delay: -1s;
+.photo-wrapper img:nth-child(3) {
+  animation-delay: -1s;
 }
-.photo-wrapper img:nth-child(4){
-    animation-delay: -2s;
+.photo-wrapper img:nth-child(4) {
+  animation-delay: -2s;
 }
-
-.photo-down img:not(:first-child){
-
-    animation: float-icon ease-in-out 4s infinite;
+.photo-wrapper img:nth-child(5) {
+  animation-delay: -3s;
 }
-.photo-down img:nth-child(2){
-    animation-delay: -3s;
+.photo-wrapper img:nth-child(6) {
+  animation-delay: -1s;
 }
-.photo-down img:nth-child(3){
-    animation-delay: -1s;
-}
-.photo-down img:nth-child(4){
-    animation-delay: -2s;
+.photo-wrapper img:nth-child(7) {
+  animation-delay: -2s;
 }
 
-
+.photo-down img:not(:first-child) {
+  animation: float-icon ease-in-out 4s infinite;
+}
+.photo-down img:nth-child(2) {
+  animation-delay: -3s;
+}
+.photo-down img:nth-child(3) {
+  animation-delay: -1s;
+}
+.photo-down img:nth-child(4) {
+  animation-delay: -2s;
+}
+.photo-wrapper img:nth-child(5) {
+  animation-delay: -3s;
+}
+.photo-wrapper img:nth-child(6) {
+  animation-delay: -1s;
+}
+.photo-wrapper img:nth-child(7) {
+  animation-delay: -2s;
+}
 
 @keyframes float-icon {
-    50%{
-        transform: translateY(-20px);
-    } 
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
-
-
-
- /* sobre social  */
-.text-sobre > div > a:hover{
-    transition: 0.2s ease;
-    transform: scale(1.05);
+/* sobre social  */
+.text-sobre > div > a:hover {
+  transition: 0.2s ease;
+  transform: scale(1.05);
 }
 
-
-
- /* botão principal  */
-#header-button:hover{
-    /* transform: scale(1.05); */
-    animation: hover-btn forwards ease-in-out;
+/* botão principal  */
+#header-button:hover {
+  /* transform: scale(1.05); */
+  animation: hover-btn forwards ease-in-out;
 }
-#header-button::before{
-    animation: hover-btn-gradient 10s infinite ease-in-out;
+#header-button::before {
+  animation: hover-btn-gradient 10s infinite ease-in-out;
 }
-#header-button:active{
-    /* transform: scale(1.05); */
-    animation: click-btn forwards ease-in-out;
+#header-button:active {
+  /* transform: scale(1.05); */
+  animation: click-btn forwards ease-in-out;
 }
 
 @keyframes hover-btn-gradient {
-    0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes hover-btn {
-    0%{
-        transform: scale(1)
-    }
-    100%{
-        transform: scale(1.03)
-    }
-    
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.03);
+  }
 }
